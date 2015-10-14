@@ -6,10 +6,35 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8F85B8221BB354200018295F /* chacha20-simple-1.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "chacha20-simple-1.1"; path = "../../../Downloads/chacha20-simple-1.1"; sourceTree = "<group>"; };
+		8F85B8231BB354A10018295F /* Encryp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Encryp.c; sourceTree = "<group>"; };
+		8F85B8241BB354A10018295F /* Encryp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryp.h; sourceTree = "<group>"; };
+		8F85B8271BB3A0C70018295F /* chacha20_simple.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chacha20_simple.c; sourceTree = "<group>"; };
+		8F85B8281BB3A0C70018295F /* chacha20_simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chacha20_simple.h; sourceTree = "<group>"; };
+		8F85B8291BB3A0C70018295F /* extras */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extras; sourceTree = "<group>"; };
+		8F85B82A1BB3A0C70018295F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8F85B82B1BB3A0C70018295F /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		8F85B82C1BB3A0C70018295F /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		8FFFAFB51BB4AA950062F13B /* Decryp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Decryp.c; sourceTree = "<group>"; };
+		8FFFAFB61BB4AA950062F13B /* Decryp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decryp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8F85B8191BB353730018295F = {
 			isa = PBXGroup;
 			children = (
+				8F85B8231BB354A10018295F /* Encryp.c */,
+				8F85B8241BB354A10018295F /* Encryp.h */,
+				8FFFAFB51BB4AA950062F13B /* Decryp.c */,
+				8FFFAFB61BB4AA950062F13B /* Decryp.h */,
+				8F85B8271BB3A0C70018295F /* chacha20_simple.c */,
+				8F85B8281BB3A0C70018295F /* chacha20_simple.h */,
+				8F85B8291BB3A0C70018295F /* extras */,
+				8F85B82A1BB3A0C70018295F /* Makefile */,
+				8F85B82B1BB3A0C70018295F /* readme.txt */,
+				8F85B82C1BB3A0C70018295F /* test.c */,
+				8F85B8221BB354200018295F /* chacha20-simple-1.1 */,
 			);
 			sourceTree = "<group>";
 		};
