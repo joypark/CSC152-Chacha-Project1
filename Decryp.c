@@ -1,5 +1,5 @@
 //
-//  Encryp.c
+//  Decryp.c
 //  CSC152 Project
 //
 //  Created by Qixuan Chai on 9/23/15.
@@ -60,7 +60,7 @@ int main(int argc, char **argv) {//** for string array and * is pointed to the c
             done=1;
         }
     }
-    //to link file gcc -o Encryp Encryp.o chacha20_simple.o
+    //to link file gcc -o Decryp Decryp.o chacha20_simple.o
     //-c to compile each to an object file seperately.
 }
 
